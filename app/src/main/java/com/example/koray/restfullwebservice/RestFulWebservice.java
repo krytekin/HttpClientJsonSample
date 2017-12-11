@@ -30,7 +30,7 @@ public class RestFulWebservice extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rest_ful_webservice);
 
-        final Button GetServerData = (Button) findViewById(R.id.GetServerData);
+        final Button GetServerData = (Button) findViewById(R.id.RefreshButton);
 
         GetServerData.setOnClickListener(new View.OnClickListener() {
 

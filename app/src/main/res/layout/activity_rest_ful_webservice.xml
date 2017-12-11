@@ -8,23 +8,10 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
         android:orientation="vertical" >
-        <EditText
-            android:paddingTop="20px"
-            android:id="@+id/serverText"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="" />
-        <Button
-            android:paddingTop="10px"
-            android:id="@+id/GetServerData"
-            android:text="Restful Webservice Call"
-            android:cursorVisible="true"
-            android:clickable="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            />
+
         <TextView
             android:paddingTop="20px"
             android:textStyle="bold"
@@ -49,6 +36,16 @@
             android:id="@+id/jsonParsed"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            />
+        <Button
+            android:paddingTop="10px"
+            android:id="@+id/RefreshButton"
+            android:text="Refresh"
+            android:cursorVisible="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             />
 
     </LinearLayout>
