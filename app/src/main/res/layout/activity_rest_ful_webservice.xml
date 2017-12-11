@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:text="Parsed JSON : " />
         <TextView
-            android:paddingTop="16px"
+            android:paddingTop="20px"
             android:id="@+id/jsonParsed"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
